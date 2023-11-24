@@ -95,6 +95,8 @@ func main() {
 	})
 	grp, _ := errgroup.WithContext(context.Background())
 
+	s.CapturePcap(context.Background(), "./out.pcap")
+
 	grp.Go(func() error {
 		return http.Serve(ln, mux)
 	})
