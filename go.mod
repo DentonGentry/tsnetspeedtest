@@ -4,7 +4,7 @@ go 1.21.1
 
 require (
 	golang.org/x/sync v0.5.0
-	tailscale.com v1.1.1-0.20231125172932-a9d8d8e660a0
+	tailscale.com v1.1.1-0.20231125190428-20fa0b3d59f9
 )
 
 require (
